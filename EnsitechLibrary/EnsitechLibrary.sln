@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnsitechLibrary", "EnsitechLibrary.csproj", "{95164800-F171-4F64-A982-F46FD821C0D1}"
+EndProject 
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95164800-F171-4F64-A982-F46FD821C0D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95164800-F171-4F64-A982-F46FD821C0D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95164800-F171-4F64-A982-F46FD821C0D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95164800-F171-4F64-A982-F46FD821C0D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{909830FC-D8DC-4D6C-981A-4F4669604F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{909830FC-D8DC-4D6C-981A-4F4669604F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{909830FC-D8DC-4D6C-981A-4F4669604F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{909830FC-D8DC-4D6C-981A-4F4669604F84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CB2E1CD-4972-4812-8D9D-893BA61C4718}
+	EndGlobalSection
+EndGlobal
