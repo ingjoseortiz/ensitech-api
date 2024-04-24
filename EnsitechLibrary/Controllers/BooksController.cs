@@ -29,7 +29,7 @@ namespace EnsitechLibrary.Controllers
             _logger = logger;
             _repository = repository ?? throw new ArgumentNullException(nameof(repository));     
         }
-
+    
         [AllowAnonymous]
         [HttpGet("all")]
         public  IActionResult GetBooks()
@@ -41,7 +41,7 @@ namespace EnsitechLibrary.Controllers
             return  Ok(books); //200
         }
  
-        [Authorize(Roles="client, administrator")]
+        [Authorize(Roles="administrator")]
         [HttpPost("add")]
         public IActionResult AddBooks([FromBody] BookDto bookDto)
         {             
@@ -130,10 +130,10 @@ namespace EnsitechLibrary.Controllers
             } 
             _repository.Return(existingBook.Id);
             return Ok(existingBook);
-        } 
+        }
 
-        [Route("rented")]
-        [HttpPost]
+        [AllowAnonymous]
+        [HttpPost("rented")]
         public string Rented()
         { 
             var booksRented = _repository.Rented();
